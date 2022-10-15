@@ -1,7 +1,7 @@
 from email.mime import image
 import cv2 as cv
 import os
-from flask import Flask, render_template, request, Response
+from flask import Flask, render_template, request, Response, jsonify
 from VisionAPI import *
 
 
