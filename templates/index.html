@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type=text/javascript>
+        $(function() {
+          $('a#test').on('click', function(e) {
+            e.preventDefault()
+            $.getJSON('/background_process_test',
+                function(data) {
+                  $('WhatDo').text(data.whatDo)
+              //do nothing
+            });
+            return false;
+          });
+        });
+    </script>
+</head>
+<body>
+    <h1>Live stream</h1>
+    <div>
+
+        <img src="{{ url_for('video') }}" width="50%" />
+
+    </div>
+  
+    <div class='container'>
+        
+            <form>
+                <a href=# id=test><button class='btn btn-default'>Click For Analysis</button></a>
+            </form>
+    
+    </div>
+    {% if whatDo %}
+    <h3>{{ whatDo }}</h3>
+    {% endif %}
+</body>
+</html>

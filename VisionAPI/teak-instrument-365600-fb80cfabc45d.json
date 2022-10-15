@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "teak-instrument-365600",
+  "private_key_id": "fb80cfabc45d5c86e3be872215449c29e87f0cfe",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6J2ueLdpQ0QUr\nuT2GLFh9RPaiLQW1nRioL/frn1IyqB7vbLNHkFpMM+l3qOZ/4cBtd53j9IECvjCD\nNGoH26XIYr8WYcO4aRSnsMBrw5VIhrUkcRfnmVZfpxX2SuLWSDwWPplDBcqfz//h\nN6NXP340nsfjZeWwCFwVKcNZ32aoSbPeDHPjOrMlT8tF2O8O9mYtzCrjbek/4rZD\nCMmVUxzUg+iPPEyt++34vG/W8YYFLqClW6h4PVlX7iXQQA2HzrKRSfpvP7h5IE0u\naoDd2abyfYRp9jh/FGC1kgAzbQEciym6MqFAANCKenahRxSrckMGUIZMDh5XtZp5\nPqPl+/Z7AgMBAAECggEADIVKP8FlxbnJVz+GW9fvu70/uXi9wZFnbyiKzFZS+QVF\nz2TISi/zYty6/0lk94T/pF0/SW3Qn5abPLfxycWESQ4bPC4nM+gdc4n350eoatBk\nrqbMrM8reBOM7pvq1e7V28kqFc/16PnchBFx8xRaML/dQfZAlK57QxEkCo90IC13\ng7UZbHPyso3Aa4p0q1SwzXmHY8T0pTrSDNhV3A2zDQ58Xfzck5XNB8x/nhHe4Tdn\nCzxJQqhBuAwVePhId8fqMIT5iteYs15rQtNGN6Z/k7QqevSBla6esjX3EeXOhAbY\nHUKW1Mg304XqvNFg5i6AtYJLd44FO+gpYAuN0wokAQKBgQDfm8s4FbXZi4o7AsVb\ne2SUO5LRZ8MdQPPi6nwk+K/xucSSh9Tp55tZn4BoidWhk56wGzQ2y1xm1RtPF8+X\nMS689DWUGHl5TnH2ku/Ab5jIPXTBRAhUxNQsV490ooRcKG/qkM/0ygl3S7IbyRZO\nKWclMVtXV1h4qyDH4VkAa2wIOwKBgQDVHq0wj+DkX6tfZyYmDpy7DfcXqlcknACF\nxoX7PS+IVLwAR+nK0lGtHL8VFyC3Mnmfi1rBL1iP/wCDufamp3HZP0bsKD9N3K19\nGQJbcMRmPs5TsV79nlzBj3PV6V2ztu5nWCduPVbKZIwOfVpCHqbTQuVUe1wp+duZ\n5iE7fOMmwQKBgGbwN5t4EyE05cvIuMYmheTfj/UqyV28OwopXEFA4u5q0J2MPm33\nm0Kk9N4rJdeeN51myKC4+a61SD8e/QfjMlr2KXwl0DYR8NDMT+bM+Q6ljAw0n4k2\nm15WaMoOztQGIY9gXvuXzsfGZxX3enc9BCjREfWhVi8myI57pRdWXINlAoGAcr8f\nlKQC/DMefDF3csovTO+J+K34WXe9OEnZXZpl+0tUJfqSQGfZHhH6OArJzJlarrJD\nXPx2/KDZ0BLSYIyLWeMd9oz8+Jk2t8I9aKpgtIRgZuN7N6aKXpU0UxphHyABYJcw\nM8TG9BYK6spHTI5gWCMOgtwglWE4AbbMcdEeJIECgYEArAuxK/B08dDcEU+1QmpV\ne57M+76QddPMcs7OEEaMLSEJgqbnPftgGqJ2aZ+NWOIzuGuvLRODUOiBC92dJKo8\nMQSuVIdFzKjEPpgaApXY3aLb+wCzwSCPL7TyEbp/P4Ei90vPnmi7XHQb+gfDZrCm\nkOYgWXhn2pfXRekW5LPG2Bc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "visionapi-for-trash@teak-instrument-365600.iam.gserviceaccount.com",
+  "client_id": "106094386075724392797",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/visionapi-for-trash%40teak-instrument-365600.iam.gserviceaccount.com"
+}
