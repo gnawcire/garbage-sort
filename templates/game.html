@@ -12,8 +12,7 @@
     </script>
 </head>
 <body>
-    <h1>Live Feed</h1>
-    <a href="http://127.0.0.1:5000/game">Click Here for Game Version</a>
+    <h1>Live Feed Game</h1>
     <div>
 
         <img src="{{ url_for('video') }}" width="50%" />
@@ -21,8 +20,10 @@
     </div>
   
     <iframe name="frame" class="hidden"></iframe>
-    <form action ="/background_process_test" target="frame">
-    <button>Click For Analysis</button>
+    <form action ="/background_process_test" target="frame" method="POST">
+        <label for="guess">What should you do with the trash?</label>
+        <br><input type="text" name="guess" />
+        <button>Click For Analysis</button>
     </form>
     {% if whatDo %}
     <p id="text">{{ whatDo }}</p>

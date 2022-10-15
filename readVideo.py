@@ -51,6 +51,10 @@ def index():
 def video():
     return Response(generate_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
+@app.route('/game')
+def game():
+    return render_template('game.html')
+
 if __name__ =="__main__":
     app.run(debug=True)
 
