@@ -31,7 +31,7 @@ def getLabelList():
     print(labelList)
     
     whatToDo = 'Throw This Item In The Trash'
-    recycleItems = ['Metal', 'Bottle', 'Glass', 'Can', 'Aluminium', 'Cups', 'Paper', 'Cardboard', 'Water', 'Plastic', 'Carton', 'Newspaper', 'Folder', 'Fluid']
+    recycleItems = ['Metal', 'Bottle', 'Glass', 'Can', 'Aluminium', 'Cups', 'Paper', 'Cardboard', 'Water', 'Plastic', 'Carton', 'Newspaper', 'Folder', 'Fluid', 'Wood', 'Electronics', 'Phone', 'Television', 'Font', 'Battery']
     for x in labelList:
         if x == 'Food':
             whatToDo = 'Compost This Item'

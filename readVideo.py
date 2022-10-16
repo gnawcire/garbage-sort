@@ -3,6 +3,7 @@ import cv2 as cv
 import os
 from flask import Flask, render_template, request, Response, jsonify
 from VisionAPI import *
+from flask_cors import CORS
 
 print(os.getcwd())
 
@@ -17,6 +18,7 @@ counter = 0
 capture = cv.VideoCapture(0)
 
 app = Flask(__name__)
+CORS(app)
 
 def generate_frames():
     while True:
