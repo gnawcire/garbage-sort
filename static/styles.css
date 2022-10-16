@@ -64,3 +64,28 @@ body {
   body {
     background-color: #ECF3EB;
   }
+  .about {
+
+    background-color: #DDFFBC;
+
+    margin-top: 2rem;
+
+    text-align:center;
+
+    margin: 2px 7rem;
+
+    padding: 4rem;
+
+  }
+
+ 
+
+  .aboutInfo {
+
+    font-size: 20px;
+
+    line-height: 2rem;
+
+ 
+
+  }
