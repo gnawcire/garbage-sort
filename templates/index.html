@@ -5,27 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garbage Classification</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css')}}">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type=text/javascript>
 
      
     </script>
 </head>
+   
 <body>
-    <h1>Live Feed</h1>
-    <a href="http://127.0.0.1:5000/game">Click Here for Game Version</a>
-    <div>
+    <div class="container">
+        <div class="header">
+            <div class="topnav">
+                <a class="active" href="/">Home</a>
+                <a href="game">Game</a>
+                <a href="about">About</a>
+            </div>
+        </div>
 
-        <img src="{{ url_for('video') }}" width="50%" />
+    <div class="header1">
+        <h1>Garbage Classification</h1>
+    </div>
+
+    <div class="camera">
+
+        <img src="{{ url_for('video') }}"  />
 
     </div>
   
     <iframe name="frame" class="hidden"></iframe>
     <form action ="/background_process_test" target="frame">
+    <div class="button1">
     <button>Click For Analysis</button>
+    </div>
     </form>
     {% if whatDo %}
-    <p id="text">{{ whatDo }}</p>
+    <div class="text"><p id="text">{{ whatDo }}</p></div>
     {% endif %}
 </body>
 </html>

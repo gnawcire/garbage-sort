@@ -5,25 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garbage Classification</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css')}}">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type=text/javascript>
 
      
     </script>
 </head>
+<div class="container">
+    <div class="header">
+        <div class="topnav">
+            <a href="/">Home</a>
+            <a class = "active" href="game">Game</a>
+            <a href="about">About</a>
+            
+        </div>
+    </div>
 <body>
-    <h1>Live Feed Game</h1>
-    <div>
+    <div class="header1">
+    <h1>Garbage Classification Game</h1>
+    </div>
+    <div class="camera">
 
-        <img src="{{ url_for('video') }}" width="50%" />
+        <img src="{{ url_for('video') }}"  />
 
     </div>
   
     <iframe name="frame" class="hidden"></iframe>
     <form action ="/background_process_test" target="frame" method="POST">
-        <label for="guess">What should you do with the trash?</label>
-        <br><input type="text" name="guess" />
-        <button>Click For Analysis</button>
+       <div class="button1"> <label for="guess">What should you do with the trash?</label> </div>
+        <br><div class="button1"><input type="text" name="guess" /></div>
+        <div class="button1">
+        <button>Check The Analysis</button>
+        </div>
     </form>
     {% if whatDo %}
     <p id="text">{{ whatDo }}</p>

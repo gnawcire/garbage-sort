@@ -31,11 +31,13 @@ def getLabelList():
     print(labelList)
     
     whatToDo = 'Throw This Item In The Trash'
+    recycleItems = ['Metal', 'Bottle', 'Glass', 'Can', 'Aluminium', 'Cups', 'Paper', 'Cardboard', 'Water', 'Plastic', 'Carton', 'Newspaper', 'Folder', 'Fluid']
     for x in labelList:
         if x == 'Food':
             whatToDo = 'Compost This Item'
-        if x == 'Plastic' or x == 'Bottle' or x == 'Water' or x =='Liquid' or x == 'Cardboard' or x =='Glass' or x == 'Box' or x == 'Drinkware' or x == 'Fluid':
-            whatToDo = 'Recycle This Item'
+        for y in recycleItems:
+            if x == y:
+                whatToDo = 'Recycle This Item'
     print(whatToDo)
     return whatToDo
 

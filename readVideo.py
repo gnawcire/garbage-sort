@@ -4,9 +4,9 @@ import os
 from flask import Flask, render_template, request, Response, jsonify
 from VisionAPI import *
 
+print(os.getcwd())
 
 
-directory = r'C:\Users\eric0\Desktop\Projects\pythonOnlyGarbageSort\Images' 
 counter = int
 counter = 0
 
@@ -21,8 +21,8 @@ app = Flask(__name__)
 def generate_frames():
     while True:
         success, frame = capture.read()
-        os.chdir(directory)
-        cv.imwrite('image' + str(counter) + '.jpg', frame)
+        
+        cv.imwrite('Images\image' + str(counter) + '.jpg', frame)
         if not success:
             break
         else:
